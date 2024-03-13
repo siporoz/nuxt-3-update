@@ -1,13 +1,13 @@
 <script setup>
 // import useState from './components/useState.vue';
 // import useFetch from './components/useFetch.vue';
-import objectSyntaxNuxtLink from '~/components/objectSyntaxNuxtLink.vue';
+// import objectSyntaxNuxtLink from '~/components/objectSyntaxNuxtLink.vue';
+// import objectSytxPlugin from '~/components/objectSytxPlugin.vue';
 </script>
 
 <template>
 	<div>
-		<h1>Ку</h1>
-		<objectSyntaxNuxtLink />
+		<objectSytxPlugin />
 	</div>
 </template>
 
