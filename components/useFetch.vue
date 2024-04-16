@@ -6,6 +6,7 @@ const someReqValue = ref(1)
 const { data, pending, error, refresh } = await useFetch('https://jsonplaceholder.typicode.com/todos/1', {
   pick: ['userId', 'id', 'title'], // pick value from responce
 	// server: false - отключает запрос на стороне сервера no SSR
+
 	lazy: true, // - whether to resolve the async function after loading the route, instead of blocking client-side navigation
 	// immediate: false // will prevent the request from firing immediately
 	default: () => {userId: 1},
