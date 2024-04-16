@@ -16,5 +16,4 @@ const { data: discounts, pending } = await useAsyncData('cart-discount', async (
 </script>
 
 <style scoped>
-
 </style>
