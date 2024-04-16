@@ -11,5 +11,4 @@ console.log(nuxtApp.$hello('name'))
 </script>
 
 <style scoped>
-
 </style>
