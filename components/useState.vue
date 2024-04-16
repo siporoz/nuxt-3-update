@@ -5,7 +5,7 @@ const counter = useState('counter', () => Math.round(Math.random() * 1000))
 
 <template>
   <div>
-    Counter: {{ counter }}
+    Counter: {{ counter }} COUNTER CHANGE
     <button @click="counter++">
       +
     </button>
