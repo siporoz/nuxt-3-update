@@ -12,6 +12,7 @@ import objectSytxPlugin from '@@/components/objectSytxPlugin.vue';
 
 <template>
 	<div>
+    <div>ТЕСТ</div>
 		<objectSytxPlugin />
 	</div>
 </template>
